@@ -1,7 +1,7 @@
 #!/usr/bin/env python
 
 
-"""read_dir_fields.py: This script reads an SCEC ETAS forecast directory name
+"""add_columns.py: This script reads an SCEC ETAS forecast directory name
 and extracts key fields that are then added as attributes in the SCEC Deriva
 schema.
 
@@ -10,6 +10,9 @@ schema.
 
  This must be run after the create_model.py script has been run, because this modifies
  the ERD created by that script.
+ 
+ The expectation is this is run once. If it is run a second time, we expect errors
+ indicating the columns already exist.
  
 Philip Maechling
 3 April 2021

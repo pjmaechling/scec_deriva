@@ -1,8 +1,6 @@
 # scec_deriva
 This is a collection of software developed to support SCEC's forecast data management activity. SCEC produces both short-term earthquake forecasts and earthquake forecast evaluation methods. SCEC is developing a forecast data management approach based on the Deriva software system.
 
-##
-
 ## scec_model.py
 
 ## scec_config.py

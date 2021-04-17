@@ -26,7 +26,8 @@ Savran, W. H., Werner, M. J., Marzocchi, W., Rhoades, D. A., Jackson, D. D., Mil
 
 ## Contributors
 Philip Maechling
+
 Rob Schuler
+
 Carl Kesselman
-Kevin Milner
-William Savran
+

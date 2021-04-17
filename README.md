@@ -6,7 +6,7 @@ This is a collection of software developed to support SCEC's forecast data manag
 ## scec_config.py
  
 ## create_erd.py
-We iterate through several version of the initial ERD format.These scripts provides examples showing several versions of how the schema is defined using Deriva Chisel library. These scripts point at the SCEC catalog in a Deriva sandbox.
+These scripts provides examples showing several versions of how the schema is defined using Deriva Chisel library. We iterate through several version of the initial ERD format. The most recent version includes ERD creation and specification of Deriva annotations. These scripts point at the SCEC catalog in a Deriva sandbox.
 
 ## Project Description - Earthquake Forecast Data Management Prototype Development
 SCEC researchers develop physics-based earthquake models, use these models to make short term earthquake forecasts, and evaluate these forecasts in rigorous ways that determine their usefulness and guide model improvements. 

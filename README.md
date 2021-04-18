@@ -2,6 +2,9 @@
 This is a collection of software developed to support SCEC's forecast data management activity. SCEC produces both short-term earthquake forecasts and earthquake forecast evaluation methods. SCEC is developing a forecast data management approach based on the Deriva software system. The initial prototype is designed to manage ETAS forecasts and evaluations.
 
 ## Description of Scripts in Repo
+* populate_columns.py
+This script queries the forecast table for each entry, retrieves the forecast name. The forecast name is a directory name created by the forecasters, that encodes several metadata fields. This script parses that directory name string to extract specific metadata values. It then updates columns for the row with metadata values extracted.
+
 * add_columns.py
 This script parses the ETAS directory names, extracts metadata fields, then adds columns into the ERD to store the extracted metadata fields.
 

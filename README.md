@@ -3,7 +3,7 @@ This is a collection of software developed to support SCEC's forecast data manag
 
 ## Description of Scripts in Repo
 * populate_columns.py
-This script queries the forecast table for each entry, retrieves the forecast name. The forecast name is a directory name created by the forecasters, that encodes several metadata fields. This script parses that directory name string to extract specific metadata values. It then updates columns for the row with metadata values extracted.
+This script queries the forecast table, retrieves all the rows. For each row, it reads the forecast name column, which is a directory name that encodes several metadata fields. It parses that directory name string to extract specific metadata values. It then populates other columns in the row with metadata values extracted.
 
 * add_columns.py
 This script parses the ETAS directory names, extracts metadata fields, then adds columns into the ERD to store the extracted metadata fields.
